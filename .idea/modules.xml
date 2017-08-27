@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/laputa/basic/basic.iml" filepath="$PROJECT_DIR$/laputa/basic/basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/laputa/common-utils/common-utils.iml" filepath="$PROJECT_DIR$/laputa/common-utils/common-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/laputa/guava/guava.iml" filepath="$PROJECT_DIR$/laputa/guava/guava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/laputa/kafka/kafka.iml" filepath="$PROJECT_DIR$/laputa/kafka/kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/laputa/laputa-parent.iml" filepath="$PROJECT_DIR$/laputa/laputa-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/laputa/monitor/monitor.iml" filepath="$PROJECT_DIR$/laputa/monitor/monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/laputa/redis/redis.iml" filepath="$PROJECT_DIR$/laputa/redis/redis.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="basic" />
+        <module name="common-utils" />
+        <module name="guava" />
+        <module name="kafka" />
+        <module name="monitor" />
+        <module name="redis" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="basic" target="1.5" />
+      <module name="common-utils" target="1.5" />
+      <module name="guava" target="1.5" />
+      <module name="kafka" target="1.5" />
+      <module name="laputa-parent" target="1.5" />
+      <module name="monitor" target="1.5" />
+      <module name="redis" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
