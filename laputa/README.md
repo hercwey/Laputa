@@ -4,3 +4,5 @@ conflict line
 User manual
 
 add a branch develop
+
+idea merge
