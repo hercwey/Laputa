@@ -12,6 +12,7 @@
     <module>redis</module>
     <module>kafka</module>
     <module>monitor</module>
+    <module>dubbo</module>
   </modules>
   <packaging>pom</packaging>
 
