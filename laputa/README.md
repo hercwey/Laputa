@@ -13,3 +13,5 @@ add at github
 
 
 git reset revert test
+
+git revert
