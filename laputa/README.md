@@ -10,3 +10,6 @@ idea merge
 abc
 
 add at github
+
+
+git reset revert test
