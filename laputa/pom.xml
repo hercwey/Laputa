@@ -13,6 +13,9 @@
     <module>kafka</module>
     <module>monitor</module>
     <module>dubbo</module>
+      <module>javafeature</module>
+      <module>dubbo-provider</module>
+    <module>dubbo-consumer</module>
   </modules>
   <packaging>pom</packaging>
 
