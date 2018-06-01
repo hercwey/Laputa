@@ -17,7 +17,7 @@ import java.util.concurrent.Future;
  * Future 提供了cancel()方法来取消关联的Callable 任务。重载的get()方法可以指定时间来等待结果，它避免当前线程长时间阻塞。
  * isDone()和isCancelled()方法用于查询关联callable任务的当前状态。
  *
- * 下面是个Callable任务实例，它一秒后返回执行任务的线程名。我使用Executor框架来并行地执行100个任务，并使用Java Future
+ * 下面是个Callable任务实例，它一秒后返回执行任务的线程名。我使用Executor框架来并行地执行50个任务，并使用Java Future
  * 来获取提交的任务的结果。
  *
  * Tutorial: https://www.journaldev.com/1090/java-callable-future-example
@@ -27,7 +27,7 @@ public class MyCallable implements Callable<String> {
 
     @Override
     public String call() throws Exception {
-        Thread.sleep(1000);
+        Thread.sleep(5000);
         //返回执行该Callalbe任务的线程名
         return Thread.currentThread().getName();
     }
@@ -38,7 +38,7 @@ public class MyCallable implements Callable<String> {
         List<Future<String>> list = new ArrayList<>();
         // 创建MyCallable实例
         Callable<String> callable = new MyCallable();
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 50; i++) {
             // 提交Callable任务到线程池取执行
             Future<String> future = executor.submit(callable);
             // 添加Future到list，我们可以用Future得到返回值
