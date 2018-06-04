@@ -21,10 +21,11 @@ public class TaskProducer implements Runnable {
         int count = 0;
         while (true) {
             try {
-                Thread.sleep(random.nextInt(600) + 600);
+                Thread.sleep(random.nextInt(600) + 100);
                 // 模拟生成一个任务
                 UUID taskid = UUID.randomUUID();
                 //将任务插入任务队列：task-queue
+                //jedis.lpush("task-queue", taskid.toString());
                 jedis.lpush("task-queue", taskid.toString());
                 System.out.println("插入了一个新的任务： " + taskid);
                 count++;
