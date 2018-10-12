@@ -14,6 +14,7 @@
     <module>monitor</module>
     <module>dubbo</module>
     <module>javafeature</module>
+    <module>distributed</module>
   </modules>
   <packaging>pom</packaging>
 

@@ -24,9 +24,6 @@ public class TaskShedulerSystem {
         for (int i=0; i<20; i++) {
             executor.execute(new TaskConsumer());
         }
-//        for (int i=0; i<5; i++) {
-//            new Thread(new TaskConsumer()).start();
-//        }
 
         //主线程休眠
         Thread.sleep(Long.MAX_VALUE);
